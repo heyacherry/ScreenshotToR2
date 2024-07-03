@@ -1,0 +1,13 @@
+service: screenshot-to-R2
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: us-east-1
+
+functions:
+  handler:
+    handler: handler.screencapturesToR2
+    # events:
+    #   - schedule:
+    #       rate: rate(5 minutes)
