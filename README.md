@@ -1,6 +1,6 @@
 ## ScreenshotToR2-Node-Crawler
 
-ScreenshotToR2 is a lambda NodeJS function designed to crawl info and capture screenshots of an array of URLs and upload them to Cloudflare R2 in a few minutes. 
+ScreenshotToR2 is a lambda NodeJS crawler designed to collect info and capture screenshots of an array of URLs and upload them to Cloudflare R2 in a few minutes. 
 
 ### 🚀 Features
 - **URL Accessibility Check**: Test if the input URL is still accessible.
