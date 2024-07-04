@@ -32,6 +32,10 @@ cd ScreenshotToR2
 npm install
 ```
 
+#### .env Set up
+Environment Variables:
+Create a `.env` file based on `.env_example` and fill in your credentials.
+
 #### Deployment
 1. Configure your AWS credentials
 ```
@@ -46,10 +50,8 @@ provider:
   profile: your-aws-profile
   region: us-east-1
 ```
-2. Environment Variables:
-Create a `.env` file based on `.env_example` and fill in your credentials.
 
-3. Deploy the service:
+2. Deploy the service:
 ```
 serverless deploy
 ```
