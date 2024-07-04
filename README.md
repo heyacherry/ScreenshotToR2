@@ -46,8 +46,10 @@ provider:
   profile: your-aws-profile
   region: us-east-1
 ```
+2. Environment Variables:
+Create a `.env` file based on `.env_example` and fill in your credentials.
 
-2. Deploy the service:
+3. Deploy the service:
 ```
 serverless deploy
 ```
