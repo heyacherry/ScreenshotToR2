@@ -32,8 +32,7 @@ cd ScreenshotToR2
 npm install
 ```
 
-#### .env Set up
-Environment Variables:
+#### Environment Variables Set up
 Create a `.env` file based on `.env_example` and fill in your credentials.
 
 #### Deployment
